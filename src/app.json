@@ -15,15 +15,20 @@
     "list": [
       {
         "pagePath": "pages/home/index",
-        "text": "行业市场"
+       
+        "text": "主页"
       },
       {
-        "pagePath": "pages/order/index",
-        "text": "个人订单"
+        "pagePath": "pages/Thelog/index",
+        "text": "日志"
       },
       {
-        "pagePath": "pages/my/index",
-        "text": "我的"
+        "pagePath": "pages/meeting/index",
+        "text": "会议"
+      },
+      {
+        "pagePath": "pages/data/index",
+        "text": "资料"
       }
     ]
   }

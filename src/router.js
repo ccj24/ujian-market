@@ -1,157 +1,131 @@
 var routes = [
-    {
-        path: 'pages/home/index',
-        name: 'home',
-        config: {
-            navigationBarTitleText: '行业市场',
-            enablePullDownRefresh: true,
-            onReachBottomDistance: 50
-          },
+  {
+    path: 'pages/home/index',
+    name: 'home',
+    config: {
+      navigationBarTitleText: '主页',
+      enablePullDownRefresh: true,
+      onReachBottomDistance: 50
     },
-    {
-        path: 'pages/home/subject',
-        name: 'subject',
-        config: {
-            navigationBarTitleText: '行业专题',
-            enablePullDownRefresh: true,
-            onReachBottomDistance: 50
-          },
+  },
+ 
+  {
+    path: 'pages/home/Projectpicture',
+    name: 'home-picture',
+    config: {
+      navigationBarTitleText: '项目图片',
+      enablePullDownRefresh: true,
+      onReachBottomDistance: 50
     },
-    {
-        path: 'pages/home/search',
-        name: 'home-search',
-        config: {
-            navigationBarTitleText: '商品搜索',
-          },
+  },
+  {
+    path: 'pages/home/ProjectBIM',
+    name: 'home-ProjectBIM',
+    config: {
+      navigationBarTitleText: 'BIM',
+      enablePullDownRefresh: true,
+      onReachBottomDistance: 50
     },
-    {
-        path: 'pages/home/searchresult',
-        name: 'home-searchresult',
-        config: {
-            navigationBarTitleText: '商品搜索结果',
-            enablePullDownRefresh: true,
-            onReachBottomDistance: 50
-          },
+  },
+  {
+    path: 'pages/home/ProjectVR',
+    name: 'home-ProjectVR',
+    config: {
+      navigationBarTitleText: '全景预览',
+      enablePullDownRefresh: true,
+      onReachBottomDistance: 50
     },
-    {
-        path: 'pages/index/index',
-        name: 'index',
-        config: {
-            navigationBarTitleText: '授权登录',
-            enablePullDownRefresh: false
-          },
+  },
+  {
+    path: 'pages/home/Projectmonitoring',
+    name: 'home-monitoring',
+    config: {
+      navigationBarTitleText: '监控',
+      enablePullDownRefresh: true,
+      onReachBottomDistance: 50
     },
-    {
-        path: 'pages/order/index',
-        name: 'order',
-        config: {
-            navigationBarTitleText: '订单',
-            enablePullDownRefresh: true,
-            onReachBottomDistance: 50
-          },
+  },
+  {
+    path: 'pages/home/Aerialphoto',
+    name: 'home-Aerialphoto',
+    config: {
+      navigationBarTitleText: '航拍',
+      enablePullDownRefresh: true,
+      onReachBottomDistance: 50
     },
-    
-    {
-        path: 'pages/order/orderDetail',
-        name: 'orderDetail',
-        config: {
-            navigationBarTitleText: '订单详情',
-            enablePullDownRefresh: true,
-            onReachBottomDistance: 50
-          },
+  },
+  {
+    path: 'pages/home/Projectmember',
+    name: 'home-Projectmember',
+    config: {
+      navigationBarTitleText: '项目成员',
+      enablePullDownRefresh: true,
+      onReachBottomDistance: 50
     },
-    {
-        path: 'pages/order/orderreturn',
-        name: 'orderreturn',
-        config: {
-            navigationBarTitleText: '售后服务',
-          },
+  },
+  {
+    path: 'pages/home/Welfarelist',
+    name: 'home-Welfarelist',
+    config: {
+      navigationBarTitleText: '红包详情',
+      enablePullDownRefresh: true,
+      onReachBottomDistance: 50
     },
-    {
-        path: 'pages/order/write_review',
-        name: 'write_review',
-        config: {
-            navigationBarTitleText: '写评论',
-          },
+  },
+  {
+    path: 'pages/home/details',
+    name: 'home-details',
+    config: {
+      navigationBarTitleText: '详细资料',
+      enablePullDownRefresh: true,
+      onReachBottomDistance: 50
     },
-    {
-        path: 'pages/order/confirm_receipt',
-        name: 'confirm_receipt',
-        config: {
-            navigationBarTitleText: '确认收货',
-          },
+  },
+  {
+    path: 'pages/home/Logdetails',
+    name: 'home-Logdetails',
+    config: {
+      navigationBarTitleText: '日志',
+      enablePullDownRefresh: true,
+      onReachBottomDistance: 50
     },
-    {
-        path: 'pages/order/Comment',
-        name: 'Comment',
-        config: {
-            navigationBarTitleText: '评价完成',
-          },
+  },
+  {
+    path: 'pages/home/Remark',
+    name: 'home-Remark',
+    config: {
+      navigationBarTitleText: '备注',
+      enablePullDownRefresh: true,
+      onReachBottomDistance: 50
     },
+  },
+  {
+    path: 'pages/data/index',
+    name: 'data',
+    config: {
+      navigationBarTitleText: '资料',
+      enablePullDownRefresh: false
+    },
+  },
+  {
+    path: 'pages/Thelog/index',
+    name: 'Thelog',
+    config: {
+      navigationBarTitleText: '日志',
+      enablePullDownRefresh: true, 
+      onReachBottomDistance: 50
+    },
+  },
 
-    {
-        path: 'pages/my/index',
-        name: 'my',
-        config: {
-            navigationBarTitleText: '我的',
-            enablePullDownRefresh: false
-          },
+  {
+    path: 'pages/meeting/index',
+    name: 'meeting',
+    config: {
+      navigationBarTitleText: '会议',
+      enablePullDownRefresh: false
     },
-    {
-        path: 'pages/my/address',
-        name: 'address',
-        config: {
-            navigationBarTitleText: '收货地址管理',
-            enablePullDownRefresh: false
-          },
-    },
-    {
-        path: 'pages/my/addressadd',
-        name: 'addressadd',
-        config: {
-            navigationBarTitleText: '新增收货地址',
-            enablePullDownRefresh: false
-          },
-    },
-    {
-        path: 'pages/shop/index',
-        name: 'shop',
-        config: {
-            navigationBarTitleText: '店铺主页',
-            enablePullDownRefresh: false
-          },
-    },
-    {
-        path:'pages/shop/detail',
-        name:'good',
-        config: {
-            navigationBarTitleText: '商品详情',
-            enablePullDownRefresh: false
-        }
-    },
-    {
-        path:'pages/order/settle',
-        name:'settle',
-        config: {
-            navigationBarTitleText: '订单结算',
-            enablePullDownRefresh: false
-        }
-    },
-    {
-        path:'pages/order/logistics',
-        name:'logistics',
-        config: {
-            navigationBarTitleText: '物流选择',
-            enablePullDownRefresh: false
-        }
-    },
-    {
-        path:'pages/order/pay',
-        name:'pay',
-        config: {
-            navigationBarTitleText: '订单支付',
-            enablePullDownRefresh: false
-        },
-    }
+  },
+
+
 ]
-module.exports =routes
+module.exports = routes
